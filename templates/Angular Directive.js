@@ -1,4 +1,5 @@
 (function() {
+  'use strict';
   angular.module('${ModuleName}')
     .directive('${NAME}', ${NAME});
 
@@ -11,8 +12,9 @@
       link: link
     };
     return directive;
+
+    function link(scope, element, attrs) {
+    }
   }
 
-  function link(scope, element, attrs) {
-  }
-})
+})();
