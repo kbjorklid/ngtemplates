@@ -1,0 +1,4 @@
+ngtemplates
+===========
+
+AngularJS file templates
